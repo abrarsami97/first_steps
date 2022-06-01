@@ -1,7 +1,7 @@
 import random
 
 while True:
-    user_action = input("Enter a choice (rock, paper, scissors): ")
+    user_action = input("Enter a choice (rock, paper, scissors) \n Choose '0' for rock, '1' for paper' and '2' for scissors: ")
     possible_actions = ["0", "1", "2"]
     computer_action = random.choice(possible_actions)
 
