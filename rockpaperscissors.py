@@ -6,8 +6,10 @@ while True:
     computer_action = random.choice(possible_actions)
 
 
+    
+    
     if user_action == computer_action:
-        print(f"Both players selected {user_action}. It's a tie!")
+        print("Both players selected {user_action}. It's a tie!")
     elif user_action == "0":
         if computer_action == "2":
             print("Rock smashes scissors! You win!")
